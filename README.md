@@ -29,6 +29,7 @@ I think it may have had something to do with the LCD screen and the camera shutt
 
 ## CPP (or C actually)
 I decided to write this in Turbo C++, and solely using C. This would guarantee the smallest binary. As storage and memory is extremely scares on this little ATARI Portfolio.
+We end up with a 12894 byte executable. For today's standards that's considered "tiny"... I figure that we could even make it a lor smaller in assembler, but I doubt the production used assembler also. I think they may have done this in Pascal or C too.
 
 ### Modulo with logical and
 To reduce the code size a bit further and speed the code up (not that it was required) I use my ancient trick of using a logical to perform an odd/even check. Modulo operation requires an IDIV instruction which is relatively slow. I like doing these sorts of bit wise operations.
