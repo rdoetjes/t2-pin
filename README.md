@@ -27,6 +27,12 @@ So they decided to alternate by substracting 1 or 2 digits and the would run tha
 I have no idea why they chose to do this for the movie. It couldn't have anything to do with the speed of the ATARI; because they definitely slow down the print to the screen. So they could've left out the slow down and just print 5*34 lines and decrease the number of charcters by 1 each 5 times, and that would've worked just as fast.<br />
 I think it may have had something to do with the LCD screen and the camera shutter angle. Perhaps it would not show up clearly enough... Because this alternating between 1 and 2 less charachters seems to be an after thought.
 
+## CPP (or C actually)
+I decided to write this in Turbo C++, and solely using C. This would guarantee the smallest binary. As storage and memory is extremely scares on this little ATARI Portfolio.
+
+### Modulo with logical and
+To reduce the code size a bit further and speed the code up (not that it was required) I use my ancient trick of using a logical to perform an odd/even check. Modulo operation requires an IDIV instruction which is relatively slow. I like doing these sorts of bit wise operations.
+
 ## Uploading
 You will need to upload the PIN.EXE using the FT.COM from a machine that runs DOS and that has a parallel port.
 Your Portfolio needs the parallel interface.
