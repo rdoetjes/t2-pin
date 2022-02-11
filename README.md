@@ -19,12 +19,12 @@ Secondly the numbers are obviously random, and that's a very poor way to find a 
 And Thirdly, well you only get 3 tries; which is a good thing because brute forcing 4-5 numbers (which is the length used by most people) would be done in mere seconds.
 
 ### Weird algorithm
-When you watch the scene, you will notice that we start of with 38 random digits for 5 times.
-Then we have 37 random digits for 5 times.
-Then 35 random digits for 5 times.
-Then 34 random digits for 5 times.
-So they decided to alternate by substracting 1 or 2 digits and the would run that amount of digits always for 5 times.
-I have no idea why they'd chose to do so for the movie. It can't possibly have had anything to do with speed, because they definitely slow down the print to the screen. So they could've left out the slow down and just print interate 5*34 lines and that would've worked just as fast.
+When you watch the scene, you will notice that we start of with 38 random digits for 5 times. < br/>
+Then we have 37 random digits for 5 times. <br />
+Then 35 random digits for 5 times. <br />
+Then 34 random digits for 5 times. <br />
+So they decided to alternate by substracting 1 or 2 digits and the would run that amount of digits always for 5 times.<br />
+I have no idea why they'd chose to do so for the movie. It can't possibly have had anything to do with speed, because they definitely slow down the print to the screen. So they could've left out the slow down and just print interate 5*34 lines and that would've worked just as fast.<br />
 I think it may have had something to do with the LCD screen and the camera shutter angle, that it would otherwise not show up clearly enough and that it was a lost moment hack to satisfy the DP and the director.
 
 ## Uploading
