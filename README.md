@@ -24,8 +24,8 @@ Then we have 37 random digits for 5 times. <br />
 Then 35 random digits for 5 times. <br />
 Then 34 random digits for 5 times. <br />
 So they decided to alternate by substracting 1 or 2 digits and the would run that amount of digits always for 5 times.<br />
-I have no idea why they'd chose to do so for the movie. It can't possibly have had anything to do with speed, because they definitely slow down the print to the screen. So they could've left out the slow down and just print interate 5*34 lines and that would've worked just as fast.<br />
-I think it may have had something to do with the LCD screen and the camera shutter angle, that it would otherwise not show up clearly enough and that it was a lost moment hack to satisfy the DP and the director.
+I have no idea why they chose to do this for the movie. It couldn't have anything to do with the speed of the ATARI; because they definitely slow down the print to the screen. So they could've left out the slow down and just print 5*34 lines and decrease the number of charcters by 1 each 5 times, and that would've worked just as fast.<br />
+I think it may have had something to do with the LCD screen and the camera shutter angle. Perhaps it would not show up clearly enough... Because this alternating between 1 and 2 less charachters seems to be an after thought.
 
 ## Uploading
 You will need to upload the PIN.EXE using the FT.COM from a machine that runs DOS and that has a parallel port.
