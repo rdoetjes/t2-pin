@@ -24,6 +24,9 @@ prn dw 00
 .code
 	org 100h
 main proc
+	mov ah, 00
+	mov al, 02
+	int 10h
 	lea dx, pin
 	call print
 
