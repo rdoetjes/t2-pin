@@ -4,7 +4,6 @@
 #include <dos.h>
 
 #define DELAY_MS 20
-
 void printPin() {
   clrscr();
   printf("PPPPP  IIIIIII   N    N\n");
@@ -40,7 +39,7 @@ void scanPin(){
 
   for(int i=0;i<10;i++)
     printf("9003\n");
-  printf("\nPIN IDENTIFICATION NUMBER: 9003\na>");
+  printf("\nPIN IDENTIFICATION NUMBER: 9003\n\na>");
   getch();
 }
 
