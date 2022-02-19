@@ -3,22 +3,22 @@
 .data
 pin:
 db "PPPPP  IIIIIII   N    N"
-db 10
+db 10,13
 db "P   PP    I      NN   N IDENTIFICATION"
-db 10
+db 10,13
 db "P   PP    I      N N  N"
-db 10
+db 10,13
 db "PPPPP     I      N  N N   PROGRAM"
-db 10
+db 10,13
 db "P         I      N   NN"
-db 10
+db 10,13
 db "P      IIIIIII   N    N"
-db 10, 10
+db 10, 10, 13
 db "Strike a key when ready ..."
-db 10, "$"
-startcode: db 10, 10, "12345678901234567890123457890123456780",10,"$"
-pincode: db "9003",10,"$"
-message: db 10,"PIN INDENTIFICATION NUMBER: 9003",10, 10,"a>$"
+db 10, 13, "$"
+startcode: db 10, 10, 13, "12345678901234567890123457890123456780",10,13,"$"
+pincode: db "9003",10,13,"$"
+message: db 10,13,"PIN INDENTIFICATION NUMBER: 9003",10,10,13,"a>$"
 prn dw 00
 
 .code
@@ -64,6 +64,8 @@ genCode:
 	;print new line
 	mov dl, 10
 	mov ah, 02h
+	int 21h
+	mov dl, 13
 	int 21h
 
 	;loop counter 5 rows
