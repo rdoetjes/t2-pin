@@ -14,11 +14,10 @@ db "P         I      N   NN"
 db 10,13
 db "P      IIIIIII   N    N"
 db 10, 10, 13
-db "Strike a key when ready ..."
-db 10, 13, "$"
+db "Strike a key when ready ...$"
 startcode: db 10, 10, 13, "12345678901234567890123457890123456780",10,13,"$"
 pincode: db "9003",10,13,"$"
-message: db 10,13,"PIN INDENTIFICATION NUMBER: 9003",10,10,13,"a>$"
+message: db 10,13,"PIN IDENTIFICATION NUMBER: 9003",10,10,13,"a>$"
 prn dw 00
 
 .code
@@ -126,7 +125,7 @@ rand endp
 
 delay proc
 	push si
-	mov si, 03ffh
+	mov si, 000fh
 __wait:
 	dec si
 	jnz __wait
