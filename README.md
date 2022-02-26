@@ -3,6 +3,11 @@
 Terminator 2 is my all time favorite Sci-Fi movie and probably the best sequel ever made... T2 or Aliens... Both by genius director James Cameron.
 One of the scenes that I personally love is the "Easy Money" scene. It really shows the essence of what young John Connor is; smart, crafty, streetwise and he doesn't take authority serious. All the trademarks of a great rebel leader.
 
+## My Video
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9IyIBDyZ2oQ/0.jpg)](https://www.youtube.com/watch?v=9IyIBDyZ2oQ)
+
+
 ## ATARI Portfolio
 Since I procured an Atari Portfolio and a parallel port for it, I figured what can I do with this???
 Well... why not recreate the PIN hack program?
